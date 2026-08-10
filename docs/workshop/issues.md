@@ -163,19 +163,3 @@ película.
 - [ ] Los conteos se calculan a partir de los datos reales
 
 ---
-
-# Notas para el facilitador (no compartir con participantes)
-
-El objetivo no es engañar, sino practicar la revisión. Estas notas se usan
-para **sembrar** el defecto en el PR cuando la implementación no lo
-produzca de forma natural, o para guiar la revisión.
-
-| Issue | Defecto esperado en el PR |
-| ----- | ------------------------- |
-| 7 (filtrar por género) | Nombres crípticos (`x`, `a`, `yy`) y comparaciones confusas: la funcionalidad funciona pero el código no es legible. |
-| 8 (ordenar por fecha) | No hay ningún test para la nueva lógica de ordenamiento. |
-| 9 (duración) | Cambios no relacionados: retoques de CSS global, renombrados o ajustes fuera del alcance de la issue. |
-| 10 (contar estados) | Bug de lógica pequeño (p. ej. contar una sola categoría o un límite incorrecto) dentro de una funcionalidad que parece correcta. |
-
-El texto de cada issue ya indica qué dimensión evaluar; el defecto concreto
-se deja a la implementación o se siembra en la rama de ejemplo.
