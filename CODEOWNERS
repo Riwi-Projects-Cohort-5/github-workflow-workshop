@@ -1,0 +1,14 @@
+# CODEOWNERS — revisores por defecto del repositorio.
+#
+# GitHub usa este archivo para solicitar automáticamente la revisión
+# de las personas o equipos propietarios de cada ruta.
+#
+# Formato: <patrón-de-ruta> @usuario @organizacion/equipo
+#
+# Ejemplo:
+#   * @tu-organizacion/equipo-mantenimiento
+#   src/components @mantenedora-del-proyecto
+#
+# Deja una línea activa cuando conozcas quién mantiene el repositorio.
+# Hasta entonces, este archivo permanece intencionalmente sin propietarios
+# para que el taller pueda reutilizarse con cualquier grupo.

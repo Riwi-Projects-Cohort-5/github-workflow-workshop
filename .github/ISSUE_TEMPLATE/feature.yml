@@ -1,0 +1,32 @@
+name: Funcionalidad
+description: Nueva funcionalidad para CineScope Admin
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: ¿Qué funcionalidad se necesita y por qué?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación
+      description: Cómo comprobar que la funcionalidad está completa
+      placeholder: |
+        - [ ] Primer criterio
+        - [ ] Segundo criterio
+    validations:
+      required: true
+  - type: input
+    id: branch
+    attributes:
+      label: Rama sugerida
+      description: "Ejemplo: feature/movie-rating"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Contexto adicional
+      description: Información útil para quien implemente la issue

@@ -1,0 +1,22 @@
+name: Documentación
+description: Mejora o adición de documentación
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: Qué documentación se debe crear o actualizar
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Alcance
+      description: Qué archivos o secciones se deben modificar
+  - type: input
+    id: branch
+    attributes:
+      label: Rama sugerida
+      description: "Ejemplo: docs/setup"
